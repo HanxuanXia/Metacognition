@@ -266,55 +266,9 @@ This framework is particularly useful for:
 - [ ] Weakly-normalized threshold measures (partially normalized by meta-d')
 - [ ] Application to human data from perceptual and memory tasks
 
-## References
-
-Key publications informing this work:
-
-- Green, D. M., & Swets, J. A. (1966). *Signal Detection Theory and Psychophysics*. Wiley.
-
-- Macmillan, N. A., & Creelman, C. D. (2005). *Detection Theory: A User's Guide* (2nd ed.). Lawrence Erlbaum Associates.
-
-- Maniscalco, B., & Lau, H. (2012). A signal detection theoretic approach for estimating metacognitive sensitivity from confidence ratings. *Consciousness and Cognition*, 21(1), 422-430.
-
-- Sherman, M. T., Seth, A. K., & Barrett, A. B. (2018). Quantifying metacognitive thresholds using signal-detection theory. *BioRxiv*, 361543.
-
-- Barrett, A. B., Dienes, Z., & Seth, A. K. (2013). Measures of metacognition on signal-detection theoretic models. *Psychological Methods*, 18(4), 535-552.
-
-- Fleming, S. M., & Dolan, R. J. (2012). The neural basis of metacognitive ability. *Philosophical Transactions of the Royal Society B*, 367(1594), 1338-1349.
-
-- Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906-911.
-
-- Yeung, N., & Summerfield, C. (2012). Metacognition in human decision-making: Confidence and error monitoring. *Philosophical Transactions of the Royal Society B*, 367(1594), 1310-1321.
-
-- Rahnev, D. (2011). Attention induces conservative subjective biases in visual perception. *Nature Neuroscience*, 14(12), 1513-1515.
-
-- Constant, M., Pereira, M., Faivre, N., & Filevich, E. (2023). Prior information differentially affects discrimination decisions and subjective confidence reports. *Nature Communications*, 14(1), 5473.
-
-- Zylberberg, A., Roelfsema, P. R., & Sigman, M. (2014). Variance misperception explains illusions of confidence in simple perceptual decisions. *Consciousness and Cognition*, 27, 246-253.
-
-- Grimaldi, P., Lau, H., & Basso, M. A. (2015). There are things that we know that we know, and there are things that we do not know we do not know: Confidence in decision-making. *Neuroscience & Biobehavioral Reviews*, 55, 88-97.
-
-## Contributing
-
-Contributions, bug reports, and feature requests are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License—see the LICENSE file for details.
-
-## Contact & Support
-
-**Project Maintainer**: Hanxuan Xia  
-**Email**: xia.hanxuan@gmail.com  
-**GitHub**: [@HanxuanXia](https://github.com/HanxuanXia)
-
-For questions, please open an issue on the GitHub repository or contact the maintainer directly.
 
 ## Acknowledgments
 
@@ -330,5 +284,3 @@ The project compares these measures systematically to clarify what each captures
 ---
 
 **Last Updated**: April 2026  
-**Version**: 1.0  
-**Report Title**: Assessing Signal-Detection Theoretic Measures of Metacognitive Confidence (Final Report)
