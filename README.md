@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project compares three **threshold-related measures of metacognitive confidence**—**proportion confident**, **m-distance**, and **m-distance₂**—under systematic manipulations of criterion placement, metacognitive noise, and type 1 sensitivity within the Signal Detection Theory (SDT) framework.
+This project compares three **threshold-related measures of metacognitive confidence**—**proportion confident**, **m-distance**, and **m-distance2**—under systematic manipulations of criterion placement, metacognitive noise, and type 1 sensitivity within the Signal Detection Theory (SDT) framework.
 
 ## Motivation
 
@@ -26,7 +26,7 @@ The project reveals that:
 
 1. **Proportion confident** is a simple descriptive measure but is affected by both threshold and type 1 sensitivity
 2. **m-distance** measures response-specific confidence criterion distance relative to meta-d', providing criterion-invariant threshold estimates under ordinary conditions
-3. **m-distance₂** uses the same fitted criterion distance as m-distance but leaves distance in evidence units (unbounded), providing stable comparison for understanding the role of meta-d' normalization
+3. **m-distance2** uses the same fitted criterion distance as m-distance but leaves distance in evidence units (unbounded), providing stable comparison for understanding the role of meta-d' normalization
 
 ## Project Structure
 
@@ -78,7 +78,7 @@ The project uses a binary decision SDT model:
    - $\text{m-dist}_{R_2} = \frac{|\text{meta-}c_{2R_2} - \text{meta-}c|}{\text{meta-}d'}$
    - Criterion-invariant measure of threshold relative to metacognitive sensitivity
 
-3. **m-distance₂**: Response-specific criterion distance in evidence units (unnormalized)
+3. **m-distance2**: Response-specific criterion distance in evidence units (unnormalized)
    - $\text{m-dist2}_{R_1} = |\text{meta-}c - \text{meta-}c_{2R_1}|$
    - $\text{m-dist2}_{R_2} = |\text{meta-}c_{2R_2} - \text{meta-}c|$
    - Comparison quantity to isolate the effect of meta-d' normalization
@@ -147,7 +147,7 @@ This script examines how confidence measures degrade as internal metacognitive n
 The main simulation question is: When metacognitive sensitivity deteriorates and meta-d' declines towards zero, which measures remain interpretable?
 
 **Output**: 
-- **noise_sweep.png**: Line plots showing trajectories of proportion confident, m-distance, and m-distance₂
+- **noise_sweep.png**: Line plots showing trajectories of proportion confident, m-distance, and m-distance2
 - **metad_mratio_vs_noise.png**: Supplementary figure showing meta-d' and M-ratio across noise levels
 - **sdt_noise_sweep.csv**: Aggregated data across noise conditions
 
@@ -188,18 +188,18 @@ tauY = 0.5                # Confidence threshold for "confident"
 
 ### Critical Findings
 
-1. **Criterion Invariance Under Ordinary Conditions**: Both m-distance and m-distance₂ remain largely invariant to type 1 criterion shifts, confirming their effectiveness as criterion-invariant threshold descriptors. This addresses a key limitation of proportion confident.
+1. **Criterion Invariance Under Ordinary Conditions**: Both m-distance and m-distance2 remain largely invariant to type 1 criterion shifts, confirming their effectiveness as criterion-invariant threshold descriptors. This addresses a key limitation of proportion confident.
 
-2. **Response-Specific Sensitivity**: Both m-distance and m-distance₂ successfully isolate response-specific confidence criterion spacing while remaining insensitive to criterion placement, as originally intended by Sherman et al. (2018).
+2. **Response-Specific Sensitivity**: Both m-distance and m-distance2 successfully isolate response-specific confidence criterion spacing while remaining insensitive to criterion placement, as originally intended by Sherman et al. (2018).
 
 3. **Measure Behavior Under Metacognitive Degradation**: The key distinction emerges under high metacognitive noise:
    - **Proportion confident**: Changes with both threshold and task difficulty
    - **m-distance**: Becomes increasingly dependent on meta-d' when noise increases
-   - **m-distance₂**: Remains stable and bounded across all noise levels
+   - **m-distance2**: Remains stable and bounded across all noise levels
 
-4. **Interpretation of Normalization**: The comparison between m-distance and m-distance₂ clarifies that when metacognitive sensitivity deteriorates:
+4. **Interpretation of Normalization**: The comparison between m-distance and m-distance2 clarifies that when metacognitive sensitivity deteriorates:
    - m-distance's meta-d' normalization causes increasing dependence on sensitivity changes
-   - m-distance₂ preserves the fitted criterion spacing in its original units
+   - m-distance2 preserves the fitted criterion spacing in its original units
    - These measures capture different aspects: threshold relative to sensitivity vs. raw criterion distance
 
 ## Output Files
